@@ -17,11 +17,24 @@ form {
   align-content: center;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  color: rgba(0,0,0,0.87);
+}
+
 #header{
   position: top right;
   top: 0;
-  text-align: right;
-  color: rgba(0,0,0,0.87);
 }
 
 #footer{
