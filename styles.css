@@ -3,11 +3,6 @@ img {
   margin: 0 auto;
 }
 
-#thai{
-  text-align: center;
-
-}
-
 a, :visited{
   text-decoration: none;
   color: #1a0dab;
@@ -26,9 +21,15 @@ form {
   position: top right;
   top: 0;
   text-align: right;
+  color: rgba(0,0,0,0.87);
 }
 
 #footer{
   position: absolute;
   bottom: 0;
   text-align: left
+}
+
+#thai{
+    text-align: center;
+}
