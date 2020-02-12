@@ -1,9 +1,9 @@
-html {
+body{
   font-family: arial,sans-serif;
   font-size: 15px;
 }
 
-img {
+img{
   display: block;
   margin: 0 auto;
 }
@@ -18,47 +18,16 @@ a:hover{
 text-decoration: underline;
 }
 
-form {
-  align-content: center;
-}
-
-#footer{
-  bottom: 0;
-  text-align: left;
-  background: #f2f2f2;
+#header{
+  text-align: right;
+  color: rgba(0,0,0,0.87);
   line-height: 40px;
 }
 
-#footer p{
-  color: rgba(0,0,0,.54);
-
+#header li{
+  display: inline;
 }
 
-#footer ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#footer li{
-  float: left;
-  background-color: #f2f2f2;
-}
-
-#footer li a {
-  color: rgba(0,0,0,.54);
-}
-
-#footer .right{
-  float: right;
-}
-
-#header{
-  position: top right;
-  top: 0;
-  text-align: right;
-  color: rgba(0,0,0,0.87);
-}
 
 #thai{
   text-align: center;
@@ -67,4 +36,29 @@ form {
 #thai a{
     color: #1a0dab;
 
+}
+
+#footer{
+  text-align: left;
+  background: #f2f2f2;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#footer p{
+  color: rgba(0,0,0,.54);
+}
+
+#footer li{
+  float: left;
+  background-color: #f2f2f2;
+}
+
+#footer li a{
+  color: rgba(0,0,0,.54);
+}
+
+#footer .right{
+  float: right;
 }
