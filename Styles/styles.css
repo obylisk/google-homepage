@@ -1,6 +1,6 @@
 
 
-.flex {
+.flex{
     display: flex;
     height: 100%;
     width: 100%;
@@ -17,7 +17,7 @@
   margin-bottom: 20px;
 }
 
-.signin {
+.signin{
     background-color:#4285f4;
     width: 75px;
     height: 30px;
@@ -32,6 +32,14 @@
  i.fas.fa-th::before{
    opacity: .55;
  }
+
+ span#apps{
+   vertical-align: middle;
+ }
+
+ul{
+  padding-top: 15px;
+}
 
 body{
   font-family: arial,sans-serif;
@@ -65,6 +73,30 @@ input{
   font-size: 15px;
   margin: 0 auto 30px auto;
   font-family: arial, sans-serif;
+}
+
+button.mic{
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin: auto;
+  transform: translate(850%,-325%);
+  border: none;
+  background: transparent;
+  background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+img.mag{
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: auto;
+  transform: translate(-1450%,-400%);
+  border: none;
+  opacity: .35;
 }
 
 .buttons{
@@ -143,12 +175,3 @@ header li{
 #right li{
   padding: 0 10px;
 }
-
-
-/* svg{
-  color: #9AA0A6;
-  fill: currentColor;
-  line-height: 24px;
-}
-
-*/
