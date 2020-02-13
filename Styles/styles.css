@@ -29,6 +29,10 @@
     border: none;
  }
 
+ i.fas.fa-th::before{
+   opacity: .55;
+ }
+
 body{
   font-family: arial,sans-serif;
   font-size: 15px;
@@ -58,14 +62,28 @@ input{
   border-radius: 24px;
   height: 44px;
   width: 482px;
-  
   font-size: 15px;
   margin: 0 auto 30px auto;
   font-family: arial, sans-serif;
 }
 
-button{
+.buttons{
   text-align: center;
+}
+
+button.buttons{
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  text-shadow: none;
+
 }
 
 header{
@@ -79,6 +97,7 @@ header{
 
 header li{
   display: inline;
+  padding-left: 15px;
 }
 
 #thai{
