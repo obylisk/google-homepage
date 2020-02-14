@@ -37,13 +37,10 @@
    vertical-align: middle;
  }
 
-ul{
-  padding-top: 15px;
-}
-
 body{
   font-family: arial,sans-serif;
   font-size: 15px;
+  min-height: 100%;
 }
 
 img{
@@ -61,6 +58,7 @@ a:hover{
 text-decoration: underline;
 }
 
+
 input{
   display: flex;
   margin: 0 auto;
@@ -71,7 +69,6 @@ input{
   height: 44px;
   width: 482px;
   font-size: 15px;
-  margin: 0 auto 30px auto;
   font-family: arial, sans-serif;
 }
 
@@ -101,6 +98,7 @@ img.mag{
 
 .buttons{
   text-align: center;
+  padding: 18px 0 0;
 }
 
 button.buttons{
@@ -132,14 +130,20 @@ header li{
   padding-left: 15px;
 }
 
+header ul{
+  padding-top: 13px;
+}
+
 #thai{
   text-align: center;
   font-size: 17.8px;
+  padding: 18px 0 70px 0;
 }
 #thai a{
     color: #1a0dab;
 
 }
+
 
 #footer{
   display: inline-block;
@@ -147,12 +151,13 @@ header li{
   background: #f2f2f2;
   line-height: 40px;
   margin: 0;
-
+  border: 1px solid #dfe1e5;
 }
 
 #footer p{
   color: rgba(0,0,0,.54);
   padding-left: 27px;
+  border-bottom: 1px solid #dfe1e5;
 }
 
 #footer li{
@@ -166,12 +171,13 @@ header li{
   color: rgba(0,0,0,.54);
 }
 
-#right{
+div #right{
   text-align: right;
   float: right;
   padding-right: 27px;
+  background: red;
 }
 
-#right li{
+div #right li{
   padding: 0 10px;
 }
